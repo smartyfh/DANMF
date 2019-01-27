@@ -9,7 +9,7 @@ option.verbose = 1;
 option.UpdateVi = 0; 
 option.lambda = 1;
 
-layers = [256, 128, 36];
+layers = [256, 128, 36]; %% three layers, the last layer corresponds to the number of communities to detect
 
 p = numel(layers);
 
